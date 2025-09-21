@@ -1,0 +1,63 @@
+.problema5-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.problema5-form {
+    background: #f9f9f9;
+    padding: 20px 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+.problema5-title {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.problema5-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    font-size: 14px;
+    margin-bottom: 4px;
+    color: #444;
+}
+
+.input-group input,
+.input-group select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+    outline: none;
+    border-color: #0077ff;
+    box-shadow: 0px 0px 4px rgba(0, 119, 255, 0.5);
+}
+
+.problema5-result {
+    margin-top: 15px;
+    padding: 10px;
+    background: #eef6ff;
+    border: 1px solid #0077ff;
+    border-radius: 6px;
+    color: #003366;
+    font-weight: bold;
+    text-align: center;
+}

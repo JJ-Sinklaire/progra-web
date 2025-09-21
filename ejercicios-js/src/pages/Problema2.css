@@ -1,0 +1,95 @@
+.problema2-container {
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f9fafb;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.problema2-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.form-label {
+    font-weight: 600;
+    color: #444;
+}
+
+.form-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border 0.2s ease;
+}
+
+.form-input:focus {
+    border-color: #3b82f6;
+}
+
+.venta-inputs {
+    display: flex;
+    gap: 10px;
+}
+
+.add-button {
+    background: #10b981;
+    color: white;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.add-button:hover {
+    background: #059669;
+}
+
+.form-button {
+    padding: 12px;
+    background: #3b82f6;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.form-button:hover {
+    background: #2563eb;
+}
+
+.resultados {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.total-ventas {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.resultado-final {
+    font-size: 18px;
+    font-weight: bold;
+    color: #16a34a;
+    margin-top: 10px;
+}
