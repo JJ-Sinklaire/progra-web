@@ -1,0 +1,62 @@
+.problema10-container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f9fafb;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.problema10-title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333;
+}
+
+.problema10-description {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #555;
+}
+
+.problema10-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+label {
+    font-weight: bold;
+    color: #444;
+}
+
+.textarea-input,
+.textarea-output {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.textarea-input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.textarea-output {
+    background: #f1f8f6;
+    border: 1px solid #a5d6a7;
+    color: #2e7d32;
+}

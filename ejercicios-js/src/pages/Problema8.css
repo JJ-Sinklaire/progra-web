@@ -1,0 +1,61 @@
+.problema-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: #f8f9fa;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 2rem auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.problema-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 100%;
+}
+
+.problema-label {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.3rem;
+}
+
+.problema-input {
+    padding: 0.6rem 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.problema-input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.problema-resultado {
+    padding: 1rem;
+    background: #e9f7ef;
+    border: 1px solid #28a745;
+    border-radius: 8px;
+    color: #155724;
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.resaltado {
+    font-weight: bold;
+    color: #218838;
+    font-size: 1.2rem;
+}
+
+.bonus {
+    color: #28a745;
+    font-style: italic;
+}

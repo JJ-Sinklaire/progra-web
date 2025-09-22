@@ -5,13 +5,24 @@
     border-bottom: 2px solid #ddd;
 }
 
+.tittle-link{
+    text-decoration: none;
+}
+
 .navbar-title {
     margin: 0 0 10px 0;
-    font-size: 18px;
+    font-size: 36px;
     font-weight: bold;
     color: #333;
     text-align: center;
+    transition: 0.35s color ease-in-out;
 }
+.navbar-title:hover {
+    color: #1d4ed8;
+    font-weight: bolder;
+}
+
+
 
 .navbar-list {
     display: flex;
@@ -22,16 +33,32 @@
     margin: 0;
 }
 
-.navbar-item {
-}
 
 .navbar-link {
+    position: relative;
     text-decoration: none;
     color: #2563eb;
     font-weight: 500;
-    transition: color 0.3s ease;
+    transition: color 0.35s ease-out;
 }
 
 .navbar-link:hover {
     color: #1d4ed8;
+}
+/* underline animado desde el centro */
+.navbar-link::after {
+    content: "";
+    position: absolute;
+    bottom: -2px; /* un poco separado del texto */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 1px;
+    background: #1d4ed8;
+    border-radius: 2px;
+    transition: width 0.35s ease;
+}
+
+.navbar-link:hover::after {
+    width: 100%;
 }
