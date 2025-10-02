@@ -1,0 +1,84 @@
+/* 🎨 Colores panadería */
+:root {
+    --bg-dark: #1C1C1C;
+    --bg-darker: #3E2723;
+    --accent: #BF7B30;
+    --cream: #F5E6D3;
+    --marfil: #EADBC8;
+    --vino: #8B2E2E;
+}
+
+/* Footer base */
+.footer {
+    background: var(--bg-darker);
+    color: var(--cream);
+    padding: 3rem 2rem 1rem;
+    margin-top: 3rem;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Columna */
+.footer-col h3 {
+    color: var(--accent);
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+}
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-col ul li {
+    margin-bottom: 0.5rem;
+}
+.footer-col ul li a {
+    text-decoration: none;
+    color: var(--cream);
+    transition: color 0.3s;
+}
+.footer-col ul li a:hover {
+    color: var(--accent);
+}
+
+/* Logo + descripción */
+.logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--accent);
+}
+.desc {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--marfil);
+    line-height: 1.4;
+}
+
+/* Redes */
+.socials {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.socials a {
+    color: var(--cream);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.socials a:hover {
+    color: var(--accent);
+}
+
+/* Barra inferior */
+.footer-bottom {
+    text-align: center;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 0.85rem;
+    color: var(--marfil);
+}

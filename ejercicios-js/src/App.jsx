@@ -9,12 +9,9 @@ import Problema4 from "./pages/Problema4.jsx";
 import Problema5 from "./pages/Problema5.jsx";
 import Problema6 from "./pages/Problema6.jsx";
 import Problema7 from "./pages/Problema7.jsx";
-import problema8 from "./pages/Problema8.jsx";
-//import problema9 from "./pages/Problema9.jsx";
-import problema10 from "./pages/Problema10.jsx";
 import Problema8 from "./pages/Problema8.jsx";
-import Problema10 from "./pages/Problema10.jsx";
 import Problema9 from "./pages/Problema9.jsx";
+import Problema10 from "./pages/Problema10.jsx";
 
 function App() {
     return (
