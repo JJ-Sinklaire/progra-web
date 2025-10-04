@@ -1,0 +1,111 @@
+.container {
+    padding: 20px;
+    border: 2px solid #BF7B30; /* color dorado panadería */
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 30px auto;
+    background: #fff8f2; /* un blanco cálido */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.title {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #4a2c2a;
+    margin-bottom: 15px;
+}
+
+.success {
+    color: #2d7a2d;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.error {
+    color: #b82c2c;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #4a2c2a;
+    font-weight: 500;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #d4a373;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input:focus {
+    outline: none;
+    border-color: #BF7B30;
+    box-shadow: 0 0 5px rgba(191,123,48,0.5);
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.primaryBtn,
+.successBtn,
+.cancelBtn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.primaryBtn {
+    background-color: #BF7B30;
+    color: white;
+}
+
+.primaryBtn:hover {
+    background-color: #a36226;
+    transform: translateY(-2px);
+}
+
+.successBtn {
+    background-color: #2d7a2d;
+    color: white;
+}
+
+.successBtn:hover {
+    background-color: #256325;
+    transform: translateY(-2px);
+}
+
+.cancelBtn {
+    background-color: #6c757d;
+    color: white;
+}
+
+.cancelBtn:hover {
+    background-color: #555d63;
+    transform: translateY(-2px);
+}

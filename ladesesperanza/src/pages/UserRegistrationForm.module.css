@@ -1,0 +1,74 @@
+.container {
+    background-color: #fffdf8; /* Fondo crema suave */
+    border: 2px solid #BF7B30; /* Borde dorado */
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 420px;
+    margin: 30px auto;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+}
+
+.container h2 {
+    text-align: center;
+    color: #5a3825; /* Marrón cálido */
+    margin-bottom: 15px;
+}
+
+.message {
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.success {
+    color: #28a745; /* Verde para éxito */
+}
+
+.error {
+    color: #d9534f; /* Rojo para error */
+}
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+.formGroup label {
+    display: block;
+    color: #5a3825;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.formGroup input {
+    width: 100%;
+    padding: 10px;
+    border: 1.5px solid #BF7B30;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #fff;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    color: black;
+}
+
+.formGroup input:focus {
+    border-color: #5a3825;
+    box-shadow: 0 0 6px rgba(95, 56, 37, 0.4);
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #BF7B30; /* Dorado pan */
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #5a3825; /* Marrón más oscuro */
+}

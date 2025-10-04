@@ -16,11 +16,10 @@ export default function Nav() {
 
                 {/* Menú desktop */}
                 <div className="links">
-                    <a href="#">Inicio</a>
-                    <a href="#">Productos</a>
-                    <a href="#">Ofertas</a>
-                    <a href="#">Nosotros</a>
-                    <a href="#">Contacto</a>
+                    <a href="/register">Registrarse</a>
+                    <a href="/search">Buscar</a>
+                    <a href="/delete">Eliminar</a>
+                    <a href="/update">Editar</a>
                 </div>
 
                 {/* Buscador */}
