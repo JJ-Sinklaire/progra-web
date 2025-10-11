@@ -2,7 +2,6 @@
 const express = require("express");
 const mysql = require("mysql2");
 const cors = require("cors"); // Importamos CORS para permitir peticiones desde React
-// const bodyParser = require('body-parser'); // Ya no es necesario, Express lo tiene integrado
 
 const app = express();
 const PORT = 10000; // Puerto del servidor
@@ -25,11 +24,14 @@ app.use(express.static('public')); // Para servir archivos estáticos
 
 // --- CONFIGURACIÓN DE CONEXIÓN A LA BASE DE DATOS ---
 const con = mysql.createConnection({
-    host: 'localhost',
+    host: 'tramway.proxy.rlwy.net',
     user: 'root',
-    password: 'C5m.superGalaxy',
+    password: 'TjaZprBUqjXhNXihYezGiNZyRywSIGKS',
+    port: '52463',
     database: 'baseweb'
 });
+
+
 
 con.connect(err => {
     if (err) {
